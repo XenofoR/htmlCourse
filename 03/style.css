@@ -1,5 +1,10 @@
 h1, h2, h3, h4, p, li{
-font-family: sans-serif
+font-family: sans-serif;
+color: #444;
+}
+
+h1, h2, h3 {
+color: #1098ad;
 }
 
 h1{
@@ -31,10 +36,48 @@ li{
 font-size: 20px;
 }
 
-footer p{
+#copyright{
 font-size: 16px;
 }
 
-article header p {
+#author {
 font-style: italic;
+font-size: 18px;
+}
+
+.related{
+list-style: none;
+}
+
+.related-author{
+font-size: 18px;
+font-weight: bold;
+}
+
+.main-header {
+background-color: #f7f7f7;
+}
+
+aside{
+background-color: #f7f7f7;
+border-top: 5px solid #1098ad;
+border-bottom: 5px solid #1098ad;
+}
+
+li:first-child{
+font-weight: bold;
+}
+
+a:link {
+color: #1098ad;
+text-decoration: none;
+}
+
+a:visited {
+color: #1098ad;
+}
+
+a:hover {
+font-weight: bold;
+text-decoration: underline;
 }
